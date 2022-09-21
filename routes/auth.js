@@ -4,6 +4,7 @@ const CryptoJS = require("crypto-js");
 const jwt = require("jsonwebtoken")
 
 
+
 // REGISTRACIJA
 
 router.post("/register", async (req,res)=>{

@@ -6,10 +6,12 @@
   "scripts": {
     "start": "nodemon index.js"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "crypto-js": "^4.1.1",
     "crypto.js": "^3.0.0",
     "dotenv": "^16.0.2",
@@ -19,4 +21,5 @@
     "nodemon": "^2.0.20",
     "stripe": "^10.10.0"
   }
+  
 }
